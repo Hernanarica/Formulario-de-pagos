@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('../../assets/icons/icomoon.eot?ep5ufp');
+	src: url('../../assets/icons/icomoon.eot?ep5ufp#iefix') format('embedded-opentype'),
+	url('../../assets/icons/icomoon.ttf?ep5ufp') format('truetype'),
+	url('../../assets/icons/icomoon.woff?ep5ufp') format('woff'),
+	url('../../assets/icons/icomoon.svg?ep5ufp#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon__"], [class*=" icon__"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon__credit-card:before {
+	content: "\e900";
+	color: #9ea8bd;
+}
+
+.icon__info:before {
+	content: "\e901";
+	color: #9ea8bd;
+}

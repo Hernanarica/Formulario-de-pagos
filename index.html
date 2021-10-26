@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="./src/css/index.css">
+		<title>Formulario</title>
+	</head>
+	<body>
+		<section class="section-form">
+			<h2 class="section-form__title">
+				<img src="./src/assets/imgs/Logo.png" alt="Logo leonidas esteban" width="48" height="48" class="section-form__image">
+				Leonidas Esteban
+			</h2>
+			<h3 class="section-form__subtitle">Información de pago</h3>
+			<form action="/" method="post" enctype="multipart/form-data" class="form">
+				<div class="form-group">
+					<label for="name" class="form__label">Full Name</label>
+					<input type="text" id="name" name="name" class="form__input" value="Alex Montoya">
+				</div>
+				<div class="form-group">
+					<label for="credit-card" class="form__label">Número de Tarjeta de Crédito</label>
+					<input type="text" id="credit-card" name="credit-card" class="form__input form__input--disabled" value="1234 1234 1234 1234">
+					<i class="icon__credit-card" aria-hidden="true"></i>
+				</div>
+				<div class="form-group-wrapper">
+					<div class="form-group">
+						<label for="expiration-date" class="form__label">Fecha de vencimiento</label>
+						<input type="text" id="expiration-date" name="expiration-date" class="form__input form__input--disabled" value="MM/YY">
+					</div>
+					<div class="form-group">
+						<label for="cvv" class="form__label">CVV</label>
+						<input type="text" id="cvv" name="cvv" class="form__input form__input--disabled" value="***">
+						<i class="icon__info" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="address" class="form__label">Dirección</label>
+					<input type="text" id="address" name="address" class="form__input form__input--disabled" value="Av.morelos #123">
+				</div>
+				<div class="form-group-submit">
+					<button type="submit" class="btn btn--disabled">Confirmar pago</button>
+					<p>Verificas que esta información es correcta</p>
+				</div>
+			</form>
+		</section>
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>

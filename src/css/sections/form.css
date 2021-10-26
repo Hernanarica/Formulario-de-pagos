@@ -1,0 +1,36 @@
+.section-form {
+	padding: 1.875rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
+	max-inline-size: 20.5rem;
+	inline-size: 100%;
+	border-radius: 1.25rem;
+	background-color: var(--white);
+}
+
+.section-form__title {
+	font-size: 0;
+	margin: 0;
+}
+
+.section-form__subtitle {
+	font: var(--heading1);
+	margin: 0.5rem 0 0 0;
+}
+
+.section-form__title,
+.section-form__subtitle {
+	text-align: center;
+}
+
+.section-form__image {
+	vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+	.section-form {
+		max-inline-size: 22.5rem;
+	}
+}

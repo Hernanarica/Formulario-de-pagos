@@ -1,0 +1,7 @@
+/* import bootstrap files */
+@import "./bootstrapping/bootstrapping.css";
+/* import components */
+@import "./components/form-group.css";
+@import "./components/buttons.css";
+/* import sections */
+@import "./sections/form.css";
