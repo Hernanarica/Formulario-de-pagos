@@ -70,8 +70,12 @@
 	box-shadow: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 361px) {
 	.form {
 		max-inline-size: 300px;
+	}
+
+	.form-group-wrapper > .form-group {
+		max-inline-size: 9rem;
 	}
 }
